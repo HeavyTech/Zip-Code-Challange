@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82EABC081D2AFD12000ADE1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EABC071D2AFD12000ADE1D /* AppDelegate.swift */; };
+		82EABC0A1D2AFD12000ADE1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EABC091D2AFD12000ADE1D /* ViewController.swift */; };
+		82EABC0D1D2AFD12000ADE1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82EABC0B1D2AFD12000ADE1D /* Main.storyboard */; };
+		82EABC0F1D2AFD12000ADE1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82EABC0E1D2AFD12000ADE1D /* Assets.xcassets */; };
+		82EABC121D2AFD12000ADE1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82EABC101D2AFD12000ADE1D /* LaunchScreen.storyboard */; };
+		82EABC1D1D2AFD12000ADE1D /* Zip_Code_ChallangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EABC1C1D2AFD12000ADE1D /* Zip_Code_ChallangeTests.swift */; };
+		82EABC281D2AFD12000ADE1D /* Zip_Code_ChallangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EABC271D2AFD12000ADE1D /* Zip_Code_ChallangeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82EABC191D2AFD12000ADE1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82EABBFC1D2AFD12000ADE1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82EABC031D2AFD12000ADE1D;
+			remoteInfo = "Zip Code Challange";
+		};
+		82EABC241D2AFD12000ADE1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82EABBFC1D2AFD12000ADE1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82EABC031D2AFD12000ADE1D;
+			remoteInfo = "Zip Code Challange";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82EABC041D2AFD12000ADE1D /* Zip Code Challange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zip Code Challange.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82EABC071D2AFD12000ADE1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82EABC091D2AFD12000ADE1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82EABC0C1D2AFD12000ADE1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82EABC0E1D2AFD12000ADE1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82EABC111D2AFD12000ADE1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82EABC131D2AFD12000ADE1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82EABC181D2AFD12000ADE1D /* Zip Code ChallangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zip Code ChallangeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82EABC1C1D2AFD12000ADE1D /* Zip_Code_ChallangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zip_Code_ChallangeTests.swift; sourceTree = "<group>"; };
+		82EABC1E1D2AFD12000ADE1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82EABC231D2AFD12000ADE1D /* Zip Code ChallangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zip Code ChallangeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82EABC271D2AFD12000ADE1D /* Zip_Code_ChallangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zip_Code_ChallangeUITests.swift; sourceTree = "<group>"; };
+		82EABC291D2AFD12000ADE1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82EABC011D2AFD12000ADE1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EABC151D2AFD12000ADE1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EABC201D2AFD12000ADE1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82EABBFB1D2AFD12000ADE1D = {
+			isa = PBXGroup;
+			children = (
+				82EABC061D2AFD12000ADE1D /* Zip Code Challange */,
+				82EABC1B1D2AFD12000ADE1D /* Zip Code ChallangeTests */,
+				82EABC261D2AFD12000ADE1D /* Zip Code ChallangeUITests */,
+				82EABC051D2AFD12000ADE1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82EABC051D2AFD12000ADE1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82EABC041D2AFD12000ADE1D /* Zip Code Challange.app */,
+				82EABC181D2AFD12000ADE1D /* Zip Code ChallangeTests.xctest */,
+				82EABC231D2AFD12000ADE1D /* Zip Code ChallangeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82EABC061D2AFD12000ADE1D /* Zip Code Challange */ = {
+			isa = PBXGroup;
+			children = (
+				82EABC071D2AFD12000ADE1D /* AppDelegate.swift */,
+				82EABC091D2AFD12000ADE1D /* ViewController.swift */,
+				82EABC0B1D2AFD12000ADE1D /* Main.storyboard */,
+				82EABC0E1D2AFD12000ADE1D /* Assets.xcassets */,
+				82EABC101D2AFD12000ADE1D /* LaunchScreen.storyboard */,
+				82EABC131D2AFD12000ADE1D /* Info.plist */,
+			);
+			path = "Zip Code Challange";
+			sourceTree = "<group>";
+		};
+		82EABC1B1D2AFD12000ADE1D /* Zip Code ChallangeTests */ = {
+			isa = PBXGroup;
+			children = (
+				82EABC1C1D2AFD12000ADE1D /* Zip_Code_ChallangeTests.swift */,
+				82EABC1E1D2AFD12000ADE1D /* Info.plist */,
+			);
+			path = "Zip Code ChallangeTests";
+			sourceTree = "<group>";
+		};
+		82EABC261D2AFD12000ADE1D /* Zip Code ChallangeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82EABC271D2AFD12000ADE1D /* Zip_Code_ChallangeUITests.swift */,
+				82EABC291D2AFD12000ADE1D /* Info.plist */,
+			);
+			path = "Zip Code ChallangeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82EABC031D2AFD12000ADE1D /* Zip Code Challange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82EABC2C1D2AFD12000ADE1D /* Build configuration list for PBXNativeTarget "Zip Code Challange" */;
+			buildPhases = (
+				82EABC001D2AFD12000ADE1D /* Sources */,
+				82EABC011D2AFD12000ADE1D /* Frameworks */,
+				82EABC021D2AFD12000ADE1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zip Code Challange";
+			productName = "Zip Code Challange";
+			productReference = 82EABC041D2AFD12000ADE1D /* Zip Code Challange.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82EABC171D2AFD12000ADE1D /* Zip Code ChallangeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82EABC2F1D2AFD12000ADE1D /* Build configuration list for PBXNativeTarget "Zip Code ChallangeTests" */;
+			buildPhases = (
+				82EABC141D2AFD12000ADE1D /* Sources */,
+				82EABC151D2AFD12000ADE1D /* Frameworks */,
+				82EABC161D2AFD12000ADE1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82EABC1A1D2AFD12000ADE1D /* PBXTargetDependency */,
+			);
+			name = "Zip Code ChallangeTests";
+			productName = "Zip Code ChallangeTests";
+			productReference = 82EABC181D2AFD12000ADE1D /* Zip Code ChallangeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82EABC221D2AFD12000ADE1D /* Zip Code ChallangeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82EABC321D2AFD12000ADE1D /* Build configuration list for PBXNativeTarget "Zip Code ChallangeUITests" */;
+			buildPhases = (
+				82EABC1F1D2AFD12000ADE1D /* Sources */,
+				82EABC201D2AFD12000ADE1D /* Frameworks */,
+				82EABC211D2AFD12000ADE1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82EABC251D2AFD12000ADE1D /* PBXTargetDependency */,
+			);
+			name = "Zip Code ChallangeUITests";
+			productName = "Zip Code ChallangeUITests";
+			productReference = 82EABC231D2AFD12000ADE1D /* Zip Code ChallangeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82EABBFC1D2AFD12000ADE1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jose Virgen";
+				TargetAttributes = {
+					82EABC031D2AFD12000ADE1D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					82EABC171D2AFD12000ADE1D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 82EABC031D2AFD12000ADE1D;
+					};
+					82EABC221D2AFD12000ADE1D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 82EABC031D2AFD12000ADE1D;
+					};
+				};
+			};
+			buildConfigurationList = 82EABBFF1D2AFD12000ADE1D /* Build configuration list for PBXProject "Zip Code Challange" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82EABBFB1D2AFD12000ADE1D;
+			productRefGroup = 82EABC051D2AFD12000ADE1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82EABC031D2AFD12000ADE1D /* Zip Code Challange */,
+				82EABC171D2AFD12000ADE1D /* Zip Code ChallangeTests */,
+				82EABC221D2AFD12000ADE1D /* Zip Code ChallangeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82EABC021D2AFD12000ADE1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EABC121D2AFD12000ADE1D /* LaunchScreen.storyboard in Resources */,
+				82EABC0F1D2AFD12000ADE1D /* Assets.xcassets in Resources */,
+				82EABC0D1D2AFD12000ADE1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EABC161D2AFD12000ADE1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EABC211D2AFD12000ADE1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82EABC001D2AFD12000ADE1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EABC0A1D2AFD12000ADE1D /* ViewController.swift in Sources */,
+				82EABC081D2AFD12000ADE1D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EABC141D2AFD12000ADE1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EABC1D1D2AFD12000ADE1D /* Zip_Code_ChallangeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EABC1F1D2AFD12000ADE1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EABC281D2AFD12000ADE1D /* Zip_Code_ChallangeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82EABC1A1D2AFD12000ADE1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82EABC031D2AFD12000ADE1D /* Zip Code Challange */;
+			targetProxy = 82EABC191D2AFD12000ADE1D /* PBXContainerItemProxy */;
+		};
+		82EABC251D2AFD12000ADE1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82EABC031D2AFD12000ADE1D /* Zip Code Challange */;
+			targetProxy = 82EABC241D2AFD12000ADE1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82EABC0B1D2AFD12000ADE1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82EABC0C1D2AFD12000ADE1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82EABC101D2AFD12000ADE1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82EABC111D2AFD12000ADE1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82EABC2A1D2AFD12000ADE1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82EABC2B1D2AFD12000ADE1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82EABC2D1D2AFD12000ADE1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Zip Code Challange/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HeavyTech.Zip-Code-Challange";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82EABC2E1D2AFD12000ADE1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Zip Code Challange/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HeavyTech.Zip-Code-Challange";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		82EABC301D2AFD12000ADE1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Zip Code ChallangeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HeavyTech.Zip-Code-ChallangeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zip Code Challange.app/Zip Code Challange";
+			};
+			name = Debug;
+		};
+		82EABC311D2AFD12000ADE1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Zip Code ChallangeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HeavyTech.Zip-Code-ChallangeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zip Code Challange.app/Zip Code Challange";
+			};
+			name = Release;
+		};
+		82EABC331D2AFD12000ADE1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Zip Code ChallangeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HeavyTech.Zip-Code-ChallangeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Zip Code Challange";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		82EABC341D2AFD12000ADE1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Zip Code ChallangeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HeavyTech.Zip-Code-ChallangeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Zip Code Challange";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82EABBFF1D2AFD12000ADE1D /* Build configuration list for PBXProject "Zip Code Challange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EABC2A1D2AFD12000ADE1D /* Debug */,
+				82EABC2B1D2AFD12000ADE1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82EABC2C1D2AFD12000ADE1D /* Build configuration list for PBXNativeTarget "Zip Code Challange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EABC2D1D2AFD12000ADE1D /* Debug */,
+				82EABC2E1D2AFD12000ADE1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82EABC2F1D2AFD12000ADE1D /* Build configuration list for PBXNativeTarget "Zip Code ChallangeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EABC301D2AFD12000ADE1D /* Debug */,
+				82EABC311D2AFD12000ADE1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82EABC321D2AFD12000ADE1D /* Build configuration list for PBXNativeTarget "Zip Code ChallangeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EABC331D2AFD12000ADE1D /* Debug */,
+				82EABC341D2AFD12000ADE1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82EABBFC1D2AFD12000ADE1D /* Project object */;
+}
