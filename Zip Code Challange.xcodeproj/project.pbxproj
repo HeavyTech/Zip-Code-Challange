@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		827F74321D2B030A0043388C /* CashTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827F74311D2B030A0043388C /* CashTextFieldDelegate.swift */; };
 		82EABC081D2AFD12000ADE1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EABC071D2AFD12000ADE1D /* AppDelegate.swift */; };
 		82EABC0A1D2AFD12000ADE1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EABC091D2AFD12000ADE1D /* ViewController.swift */; };
 		82EABC0D1D2AFD12000ADE1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82EABC0B1D2AFD12000ADE1D /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		82EABC121D2AFD12000ADE1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82EABC101D2AFD12000ADE1D /* LaunchScreen.storyboard */; };
 		82EABC1D1D2AFD12000ADE1D /* Zip_Code_ChallangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EABC1C1D2AFD12000ADE1D /* Zip_Code_ChallangeTests.swift */; };
 		82EABC281D2AFD12000ADE1D /* Zip_Code_ChallangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EABC271D2AFD12000ADE1D /* Zip_Code_ChallangeUITests.swift */; };
+		82EABC361D2AFEAE000ADE1D /* ZipCodeTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EABC351D2AFEAE000ADE1D /* ZipCodeTextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		827F74311D2B030A0043388C /* CashTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashTextFieldDelegate.swift; sourceTree = "<group>"; };
 		82EABC041D2AFD12000ADE1D /* Zip Code Challange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zip Code Challange.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82EABC071D2AFD12000ADE1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82EABC091D2AFD12000ADE1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		82EABC231D2AFD12000ADE1D /* Zip Code ChallangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zip Code ChallangeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82EABC271D2AFD12000ADE1D /* Zip_Code_ChallangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zip_Code_ChallangeUITests.swift; sourceTree = "<group>"; };
 		82EABC291D2AFD12000ADE1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82EABC351D2AFEAE000ADE1D /* ZipCodeTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipCodeTextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				82EABC0E1D2AFD12000ADE1D /* Assets.xcassets */,
 				82EABC101D2AFD12000ADE1D /* LaunchScreen.storyboard */,
 				82EABC131D2AFD12000ADE1D /* Info.plist */,
+				82EABC351D2AFEAE000ADE1D /* ZipCodeTextFieldDelegate.swift */,
+				827F74311D2B030A0043388C /* CashTextFieldDelegate.swift */,
 			);
 			path = "Zip Code Challange";
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				82EABC0A1D2AFD12000ADE1D /* ViewController.swift in Sources */,
+				827F74321D2B030A0043388C /* CashTextFieldDelegate.swift in Sources */,
+				82EABC361D2AFEAE000ADE1D /* ZipCodeTextFieldDelegate.swift in Sources */,
 				82EABC081D2AFD12000ADE1D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +492,7 @@
 				82EABC2E1D2AFD12000ADE1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82EABC2F1D2AFD12000ADE1D /* Build configuration list for PBXNativeTarget "Zip Code ChallangeTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +501,7 @@
 				82EABC311D2AFD12000ADE1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82EABC321D2AFD12000ADE1D /* Build configuration list for PBXNativeTarget "Zip Code ChallangeUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +510,7 @@
 				82EABC341D2AFD12000ADE1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
